@@ -38,6 +38,9 @@ void loop(){
     if (ldr >= 0 && ldr <= 10){ 
      FastLED.setBrightness(0);
     for (int i=0;i<NUM_LEDS;i++){
+      
+   // this is set for white light.  You can change color if you wish  
+      
     leds[i].setRGB(255, 255, 255);  //white color
     FastLED.show();
     }
