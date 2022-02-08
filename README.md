@@ -3,4 +3,4 @@ Under Cabinet lighting sketch for the uno or nano
 
 This is in progress.  The ino is here but the instructions/wiring/demo are not ready yet.  It does work!
 
-![Cabinet](counter.jpg "Under Cabinet wiring")
+![Cabinet](Capture.png "Under Cabinet wiring")
