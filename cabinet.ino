@@ -1,3 +1,8 @@
+// Cabinet Lighting sketch
+// John Wade - Cowboysdude
+// can work with Uno or Nano
+
+
 #include <FastLED.h>
 
 //LED strip
