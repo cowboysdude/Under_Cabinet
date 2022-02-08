@@ -30,6 +30,9 @@ void setup(){
 }
 
 void loop(){
+  
+  // You can adjust brightness or add more if you want to right here
+  
   ldr = int(Light(analogRead(0)));  
   Serial.println(ldr);
     if (ldr >= 0 && ldr <= 10){ 
