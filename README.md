@@ -48,7 +48,8 @@ At present none but then I built this to use in my home.  Perhaps you may run in
 with either the code or placement.  For code issues there's plenty of help right on this forum
 [Arduino Forum](https://forum.arduino.cc/).  Again VERY helpful and great people there.  I'm
 new to writing Sketches for projects but once you do a couple it's pretty straight forward.
-BUT then if you really want something to work you'll find a way... I did.  ;)  
+BUT then if you really want something to work you'll find a way... I did.  ;) Special Thanks
+to kgray9 for the sketch AND all the help!!
 
 ## Development
 Want to contribute? Great!
