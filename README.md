@@ -20,6 +20,7 @@ turn on..it's automatic!!!
 Uses easy to get materials:
 
 - [Arduino IDE](https://www.arduino.cc/en/software) - Free!
+- [LDR](https://www.amazon.com/gp/product/B00RLGFIEY/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1) - LDR (You can use any LDR)
 - [Diffusers](https://www.amazon.com/gp/product/B01M09PBYX/ref=ppx_yo_dt_b_asin_title_o02_s01?ie=UTF8&psc=1) - Amazon
 - [WS2812B](https://www.amazon.com/gp/product/B0888H7QLG/ref=ppx_yo_dt_b_asin_title_o02_s02?ie=UTF8&psc=1) - WS2812B String LEDs.
 - [Arduino](https://www.amazon.com/gp/product/B07G99NNXL/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1) - Works with UNO or NANO [Original or Clone]
@@ -53,7 +54,11 @@ Want to contribute? Great!
 I'd like to see other variations of this!  Maybe color, etc.
 I am running mine with a sonos zigbee plug to turn the power on and off through [Home Assistant](https://www.home-assistant.io/)
 Great program for running your entire house on automation.   Why did I choose to do this way?
-So it wouldn't be powered on while the sun was out, I simply have an automation that after the sun sets the power goes on until the sun comes up again!   You can find many great examples of how to do this on the [Home Assistant forum](https://community.home-assistant.io/).  
+So it wouldn't be powered on while the sun was out, I simply have an automation that after the sun sets the power goes on until the sun comes up again!   You can find many great examples of how to do this on the [Home Assistant forum](https://community.home-assistant.io/). 
+
+#What if I don't use or even want Home Assistant?
+
+That's okay... like I said you don't need it!  It'll work whether you use Home Assistant or not!
 
 Great community and VERY helpful to new people!
  
