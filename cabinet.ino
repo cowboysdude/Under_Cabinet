@@ -6,7 +6,7 @@
 #include <FastLED.h>
 
 //LED strip
-#define NUM_LEDS 1
+#define NUM_LEDS 1  //1 for testing only.  USE your actual numbers and remember you will need to power these from power supply, not the UNO or NANO
 #define DATA_PIN 3
 
 //LDR
