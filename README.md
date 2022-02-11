@@ -69,4 +69,4 @@ Great community and VERY helpful to new people!
 MIT
 **Free Software, Hell Yeah!**
 
-![Cabinet](Capture.png "Under Cabinet wiring")
+![Cabinet](cap2.png "Under Cabinet wiring")
