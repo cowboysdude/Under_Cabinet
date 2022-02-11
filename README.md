@@ -58,7 +58,7 @@ I am running mine with a sonos zigbee plug to turn the power on and off through 
 Great program for running your entire house on automation.   Why did I choose to do this way?
 So it wouldn't be powered on while the sun was out, I simply have an automation that after the sun sets the power goes on until the sun comes up again!   You can find many great examples of how to do this on the [Home Assistant forum](https://community.home-assistant.io/). 
 
-#What if I don't use or even want Home Assistant?
+##What if I don't use or even want Home Assistant?
 
 That's okay... like I said you don't need it!  It'll work whether you use Home Assistant or not!
 
