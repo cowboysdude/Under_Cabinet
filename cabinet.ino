@@ -6,21 +6,16 @@
 #include <FastLED.h>
 
 //LED strip
-#define NUM_LEDS 5
+#define NUM_LEDS 1
 #define DATA_PIN 3
-#define BRIGHTNESS  0
 
+//LDR
 #define LDR A0 //analog 0
 
 CRGB leds[NUM_LEDS];
-int ldr;
 
-double Light (int RawADC0)
-{
-  double Vout=RawADC0*0.0048828125;
-  int lux=(2500/Vout-500)/10;
-  return lux;
-}
+int ldr;
+int ldrValue;
 
 void setup(){
   Serial.begin(9600);
@@ -30,48 +25,20 @@ void setup(){
 }
 
 void loop(){
+  ldr = analogRead(LDR);
+
+  //ldrValue is based on how much light you have hitting your LDR mine is -5, you may have to adjust for your light source to turn off lights!
+   ldrValue = map(ldr, 0, 1023, 100, -5); //100 is max brightness setting of LEDs 
   
-  // You can adjust brightness or add more if you want to right here
-  
-  ldr = int(Light(analogRead(0)));  
+  Serial.println("ldr: ");
   Serial.println(ldr);
-    if (ldr >= 0 && ldr <= 10){ 
-     FastLED.setBrightness(0);
-    for (int i=0;i<NUM_LEDS;i++){
-      
-   // this is set for white light.  You can change color if you wish  
-      
+  Serial.println("ldrValue: ");
+  Serial.println(ldrValue);
+
+  FastLED.setBrightness(ldrValue);
+  for (int i=0;i<NUM_LEDS;i++){
     leds[i].setRGB(255, 255, 255);  //white color
     FastLED.show();
-    }
-    }
-    else if (ldr >= 0 && ldr <= 20){ 
-     FastLED.setBrightness(20);
-    for (int i=0;i<NUM_LEDS;i++){
-    leds[i].setRGB(255, 255, 255);  //white color
-    FastLED.show();
-    }
-    }
-    else if (ldr >= 3 && ldr <= 50) {
-      FastLED.setBrightness(50);
-    for (int i=0;i<NUM_LEDS;i++){
-    leds[i].setRGB(255, 255, 255);  //white color
-    FastLED.show();
-    }
-    }
-    else if (ldr >= 500 &&  ldr <= 1000) {
-       FastLED.setBrightness(75);
-    for (int i=0;i<NUM_LEDS;i++){
-    leds[i].setRGB(255, 255, 255);  //white color
-    FastLED.show();
-    }
-    }
-    else {
-      FastLED.setBrightness(128);
-    for (int i=0;i<NUM_LEDS;i++){
-    leds[i].setRGB(255, 255, 255);  //white color
-    FastLED.show();
-    }    
   }
-  delay(100);
+  delay(100);  //repeat every 0.1 second
 }
