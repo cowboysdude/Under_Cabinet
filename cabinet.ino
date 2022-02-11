@@ -38,13 +38,8 @@ void loop(){
   */
   //ldrValue is based on how much light you have hitting your LDR mine is -5, you may have to adjust for your light source to turn off lights!
   
-  ldrValue = map(ldr, 0, 1023, 100, -5); //100 is max brightness setting of LEDs 
+   ldrValue = map(ldr, 0, 1023, 40, -5); 
   
-  Serial.println("ldr: ");
-  Serial.println(ldr);
-  Serial.println("ldrValue: ");
-  Serial.println(ldrValue);
-
   FastLED.setBrightness(ldrValue);
   for (int i=0;i<NUM_LEDS;i++){
     leds[i].setRGB(255, 255, 255);  //white color
