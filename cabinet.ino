@@ -28,10 +28,11 @@ void loop(){
   ldr = analogRead(LDR);
 
   /*
-  The first 2 numbers are the input low and high. For an analogRead on a 10 bit ADC that is 0 for low and 1023 for high. 
-  The other 2 numbers are for the numbers for the output numbers that correspond for the inputs. So if you want 0 output 
-  for 0 input and 255 output for 1023 input the function would be:
-   outNumber = map(inNumber, 0, 1023, 0, 255);
+  The first 2 numbers are the input low and high [0 Low, 1023 High for A0]. For an analogRead on a 10 bit ADC that is 0 for low and 1023 for high. 
+  The other 2 numbers are for the numbers for the output numbers that correspond for the inputs [100 - Low brightness, 255 - to Max Brightness]. 
+  So if you want 0 output for 0 input and 255 output for 1023 input the function would be:
+   
+   IE: outNumber = map(inNumber, 0, 1023, 0, 255);
 
    You can adjust the numbers to give the output that you want. For instance, what is the analogRead output when the LDR is full dark? What is the analogRead output when the LDR is full light? Use those numbers for the in numbers and 0 and 255 for the out numbers.
   */
