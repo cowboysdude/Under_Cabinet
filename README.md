@@ -1,4 +1,4 @@
-# Under_Cabinet
+
 # Under Cabinet Lighting
 ## _Fun and easy project_ 
 
