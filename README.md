@@ -44,12 +44,13 @@ You can use the diffusers or not either way it doesn't matter [I used them becau
 You can install diffusers or stick led's directly to under cabinet.
  
 ## Issues
-At present none but then I built this to use in my home.  Perhaps you may run into issues
-with either the code or placement.  For code issues there's plenty of help right on this forum
-[Arduino Forum](https://forum.arduino.cc/).  Again VERY helpful and great people there.  I'm
-new to writing Sketches for projects but once you do a couple it's pretty straight forward.
-BUT then if you really want something to work you'll find a way... I did.  ;) Special Thanks
-to kgray9 for the sketch AND all the help!!
+At present none but then I built this to use in my home.  BUT... I did run into one problem.
+Too much light made the LEDS show at max brightness so playing with the map function is going
+to be a case by case basis.   Perhaps you may run into issues with either the code or placement.  
+For code issues there's plenty of help right on this forum [Arduino Forum](https://forum.arduino.cc/).  
+Again VERY helpful and great people there.  I'm new to writing Sketches for projects but once you 
+do a couple it's pretty straight forward.  BUT then if you really want something to work you'll find 
+a way... I did.  ;) Special Thanks to kgray9 for the sketch AND all the help!!
 
 ## Development
 Want to contribute? Great!
