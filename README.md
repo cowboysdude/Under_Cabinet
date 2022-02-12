@@ -24,7 +24,7 @@ Uses easy to get materials:
 - [Diffusers](https://www.amazon.com/gp/product/B01M09PBYX/ref=ppx_yo_dt_b_asin_title_o02_s01?ie=UTF8&psc=1) - Amazon
 - [WS2812B](https://www.amazon.com/gp/product/B0888H7QLG/ref=ppx_yo_dt_b_asin_title_o02_s02?ie=UTF8&psc=1) - WS2812B String LEDs.
 - [Arduino](https://www.amazon.com/gp/product/B07G99NNXL/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1) - Works with UNO or NANO [Original or Clone]
-- [Project Box](https://stlbase.com/browse/project+box+enclosure/) - Find one you like, 3d Print
+- [Project Box](https://stlbase.com/browse/project+box+enclosure/) - Find one you like, 3d Print -- I included one.  It's just the right size if using an UNO.
 - [Project Box 2](https://www.amazon.com/Zulkit-Waterproof-Dustproof-Electrical-Electronic/dp/B09JYQ528P/ref=sr_1_9?crid=1UANSP5J77RFZ&keywords=project+box&qid=1644580114&sprefix=project+box%2Caps%2C98&sr=8-9) - OR buy a project box!
 - [Resister](https://www.amazon.com/Projects-100EP51210K0-10k-Resistors-Pack/dp/B0185FIOTA/ref=sr_1_12?crid=1F7YUAZ0YUIVO&keywords=110k+resistor&qid=1644580167&sprefix=110k+resister%2Caps%2C85&sr=8-12) - Resister recommend! 
 - [Power Supply](https://www.amazon.com/gp/product/B01LXN7MN3/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1) - Buy a 5v supply OR you may have one laying around already!
@@ -64,7 +64,11 @@ Great community and VERY helpful to new people!
 
 That's okay... like I said you don't need it!  It'll work whether you use Home Assistant or not!
 
- 
+
+## Note about included Project box 
+   
+   I used my soldering iron to put holes where needed.  The box was just a straight box with a lid.   It all worked out perfectly!
+
 ## License
 
 MIT
