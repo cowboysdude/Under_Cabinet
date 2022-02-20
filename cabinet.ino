@@ -1,12 +1,6 @@
-// Cabinet Lighting sketch
-// John Wade - Cowboysdude
-// can work with Uno or Nano
-
-
-#include <FastLED.h>
 
 //LED strip
-#define NUM_LEDS 1  //1 for testing only.  USE your actual numbers and remember you will need to power these from power supply, not the UNO or NANO
+#define NUM_LEDS 5  //5 for testing only.  USE your actual numbers and remember you will need to power these from power supply, not the UNO or NANO
 #define DATA_PIN 3
 
 //LDR
@@ -25,25 +19,22 @@ void setup(){
 }
 
 void loop(){
-  ldr = analogRead(LDR);
-
-  /*
-  The first 2 numbers are the input low and high [0 Low, 1023 High for A0]. For an analogRead on a 10 bit ADC that is 0 for low and 1023 for high. 
-  The other 2 numbers are for the numbers for the output numbers that correspond for the inputs [100 - Low brightness, 255 - to Max Brightness]. 
-  So if you want 0 output for 0 input and 255 output for 1023 input the function would be:
+  
+  ldr = analogRead(LDR); 
+  ldrValue = map(ldr, 0, 735, 70, 0);
    
-   IE: outNumber = map(inNumber, 0, 1023, 0, 255);
+  // For testing so you can set your above ldrValue map function
+   /*Serial.print("\t ldr :");
+   Serial.println(ldr);
+   Serial.print("ldrValue :");
+   Serial.print(ldrValue ); */
 
-   You can adjust the numbers to give the output that you want. For instance, what is the analogRead output when the LDR is full dark? What is the analogRead output when the LDR is full light? Use those numbers for the in numbers and 0 and 255 for the out numbers.
-  */
-  //ldrValue is based on how much light you have hitting your LDR mine is -5, you may have to adjust for your light source to turn off lights!
-  
-   ldrValue = map(ldr, 0, 1023, 40, -5); 
-  
+if (ldrValue >= 0){
   FastLED.setBrightness(ldrValue);
   for (int i=0;i<NUM_LEDS;i++){
     leds[i].setRGB(255, 255, 255);  //white color
     FastLED.show();
   }
-  delay(100);  //repeat every 0.1 second
+}  
+  delay(10);  //repeat every 0.1 second
 }
