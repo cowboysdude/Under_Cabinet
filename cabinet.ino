@@ -1,4 +1,4 @@
-
+// Cowboysdude with a HUGE help from kgray9 @ https://forum.arduino.cc/
 //LED strip
 #define NUM_LEDS 5  //5 for testing only.  USE your actual numbers and remember you will need to power these from power supply, not the UNO or NANO
 #define DATA_PIN 3
