@@ -46,7 +46,8 @@ You can install diffusers or stick led's directly to under cabinet.
 ## Issues
 At present none but then I built this to use in my home.  BUT... I did run into one problem.
 Too much light made the LEDS show at max brightness so playing with the map function is going
-to be a case by case basis.   Perhaps you may run into issues with either the code or placement.  
+to be a case by case basis.  [I combated this by adding an if statement that should take care of
+that problem on 2/21/22]. Perhaps you may run into issues with either the code or placement.  
 For code issues there's plenty of help right on this forum [Arduino Forum](https://forum.arduino.cc/).  
 Again VERY helpful and great people there.  I'm new to writing Sketches for projects but once you 
 do a couple it's pretty straight forward.  BUT then if you really want something to work you'll find 
