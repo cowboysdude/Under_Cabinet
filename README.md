@@ -50,7 +50,11 @@ to be a case by case basis.   Perhaps you may run into issues with either the co
 For code issues there's plenty of help right on this forum [Arduino Forum](https://forum.arduino.cc/).  
 Again VERY helpful and great people there.  I'm new to writing Sketches for projects but once you 
 do a couple it's pretty straight forward.  BUT then if you really want something to work you'll find 
-a way... I did.  ;) Special Thanks to kgray9 for the sketch AND all the help!!
+a way... I did.  ;) Special Thanks to kgray9 for the sketch AND all the help!!  
+
+One issue I have found is that early in the morning before the light really comes in the windows it may
+flash a bit here and there.   Needs adjustment to map function.  You will have to play with it until it
+works in the location you have it set.   
 
 ## Development
 Want to contribute? Great!
