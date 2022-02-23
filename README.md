@@ -80,10 +80,10 @@ That's okay... like I said you don't need it!  It'll work whether you use Home A
 MIT
 **Free Software, Hell Yeah!**
 
-With Uno [or Uno Clone]
+With Uno [You can put a resistor in between the D3 pin and light strip, it will smooth things out.]
 ![Cabinet](cap2.png "Under Cabinet wiring")
 
-With Nano [or Nano Clone]
+With Nano [You can put a resistor in between the D3 pin and light strip, it will smooth things out.]
 ![Cabinet](nano.png "Under Cabinet wiring")
 
 ## Test
