@@ -58,7 +58,9 @@ Each led light uses about 50mA - 55mA [milliamps].  I have 142 [142 X 55] lights
 7810mA which converts to 7.8Amps or round up ... 8 amps.   NOW figuring my microcontroller uses 2.4 mA... 
 that's 0.0024Amps.   Do some adding...that means I need a power supply that supplies 8.0024Amps.   
 When doing this you also need to figure in 15 to 20% more amps just in case... which leads me to needing at 
-min a 10Amp power supply.  I would suggest you get a 15A or 20A.
+min a 5v 10Amp power supply.  I would suggest you get a 5v 15A or 5v 20A.  The reason I didn't use a brick
+power supply is because there is no adjust for voltage where the metal box variety does have a voltage
+adjustment on them! 
 
 ## Issues
 At present none but then I built this to use in my home.  BUT... I did run into one problem.
