@@ -75,14 +75,20 @@ power supply is because there is no adjust for voltage where the metal box varie
 adjustment on them! 
 
 ## Issues
-At present none but then I built this to use in my home.  BUT... I did run into one problem.
+I did run into a couple small problems.
 Too much light made the LEDS show at max brightness so playing with the map function is going
 to be a case by case basis.  [I combated this by adding an if statement that should take care of
 that problem on 2/21/22]. Perhaps you may run into issues with either the code or placement.  
 For code issues there's plenty of help right on this forum [Arduino Forum](https://forum.arduino.cc/).  
 Again VERY helpful and great people there.  I'm new to writing Sketches for projects but once you 
-do a couple it's pretty straight forward.  BUT then if you really want something to work you'll find 
-a way... I did.  ;) Special Thanks to kgray9 for the sketch AND all the help!!  
+do a couple it's pretty straight forward.  The other problem occurs during the beginning of sunrise.
+The ligths will occassinally 'flicker' a bit, for me not too bad and livable but when you run into a 
+there's light but just not enough by a bit this will happen. I haven't worked on this yet but may
+in the future.  Remember I'm not trying to create a retail product here.... just making some lights
+for my kitchen  and sharing what I've done :).
+
+BUT then if you really want something to work you'll find a way... I did.  ;) Special Thanks to kgray9 
+for the sketch AND all the help!!  
 
 One issue I have found is that early in the morning before the light really comes in the windows it may
 flash a bit here and there.   Needs adjustment to map function.  You will have to play with it until it
