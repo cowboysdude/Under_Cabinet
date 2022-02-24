@@ -46,7 +46,7 @@ Uses easy to get materials:
 >toLow: the lower bound of the value’s target range. [70] -LED Brightness<br>
 >toHigh: the upper bound of the value’s target range. [0] - LED Brihtness<br>
             
-So this says basically when there is no light fromLow 0 - show led brightness at 70 toLow
+So this says basically when there is no light fromLow 0 - show led brightness at 70 toLow<br>
                                         light ranging from 1 to 1023 ldrValue fromHigh show lights from 0 up to max brightness 70 toHigh
 
 ## Under cabinet
