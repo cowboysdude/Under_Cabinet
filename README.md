@@ -45,7 +45,7 @@ You can install diffusers or stick led's directly to under cabinet.
  
 ## Power Supply
  
-Which one do I need?  Well lets do some simple [we'll do mine since I don't know yours :)].
+Which one do I need?  Well lets do some simple math [we'll do mine since I don't know yours :)].
 Each led light uses about 50mA - 55mA [milliamps].  I have 142 [142 X 55] lights so I am using [I'm using the 55mA] 
 7810mA which converts to 7.8Amps or round up ... 8 amps.   NOW figuring my microcontroller uses 2.4 mA... 
 that's 0.0024Amps.   Do some adding...that means I need a power supply that supplies 8.0024Amps.   
