@@ -31,7 +31,7 @@ void loop(){
    Serial.print("ldrValue :");
    Serial.print(ldrValue ); */
 
-if (ldrValue >= 0){
+if (ldrValue > 0){
   FastLED.setBrightness(ldrValue);
   for (int i=0;i<NUM_LEDS;i++){
     leds[i].setRGB(255, 255, 255);  //white color
