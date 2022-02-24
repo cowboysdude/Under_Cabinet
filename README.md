@@ -93,9 +93,10 @@ for the sketch AND all the help!!
 ## Development
 Want to contribute? Great!
 I'd like to see other variations of this!  Maybe color, etc.
-I am running mine with a sonos zigbee plug to turn the power on and off through [Home Assistant](https://www.home-assistant.io/)
-Great program for running your entire house on automation.   Why did I choose to do this way?
-So it wouldn't be powered on while the sun was out, I simply have an automation that after the sun sets the power goes on until the sun comes up again!   You can find many great examples of how to do this on the [Home Assistant forum](https://community.home-assistant.io/). 
+Your could run a sonos zigbee plug to turn the power on and off through [Home Assistant](https://www.home-assistant.io/)
+Great program for running your entire house on automation.   [I chose not to do this..left them automatic on their own.  One main reason is if I move the lights can stay
+and for the new home owner they will work because it's not dependant on anything other then the light.]
+So if want the Plug/HA systemn it wouldn't be powered on while the sun was out, Simply create an automation that after the sun sets the power goes on until the sun comes up again!   You can find many great examples of how to do this on the [Home Assistant forum](https://community.home-assistant.io/). 
 
 Great community and VERY helpful to new people!
 
