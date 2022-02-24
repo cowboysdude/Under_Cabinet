@@ -32,11 +32,11 @@ void loop(){
    Serial.print(ldrValue ); */
 
 if (ldrValue > 0){
-  FastLED.setBrightness(ldrValue);
+  FastLED.setBrightness(ldrValue);  // ldrValue determines brightness from 0 to 70.  70 is maxbrightness set in the map function above.    
   for (int i=0;i<NUM_LEDS;i++){
-    leds[i].setRGB(255, 255, 255);  //white color
+    leds[i].setRGB(255, 255, 255);  //white color -- feel free to change :)
     FastLED.show();
   }
 }  
-  delay(10);  //repeat every 0.1 second
+  delay(10);  //repeat every x seconds
 }
