@@ -82,7 +82,7 @@ that problem on 2/21/22]. Perhaps you may run into issues with either the code o
 For code issues there's plenty of help right on this forum [Arduino Forum](https://forum.arduino.cc/).  
 Again VERY helpful and great people there.  I'm new to writing Sketches for projects but once you 
 do a couple it's pretty straight forward.  The other problem occurs during the beginning of sunrise.
-The ligths will occassinally 'flicker' a bit, for me not too bad and livable but when you run into a 
+The lights will occassinally 'flicker' a bit, for me not too bad and livable but when you run into a 
 there's light but just not enough by a bit this will happen. I haven't worked on this yet but may
 in the future.  Remember I'm not trying to create a retail product here.... just making some lights
 for my kitchen  and sharing what I've done :).
