@@ -101,7 +101,7 @@ So if want the Plug/HA system it wouldn't be powered on while the sun was out, S
 Great community and VERY helpful to new people!
 
 ## Example Home Assistant Automation for this:
-This turns on a light 1 minute after Sunset
+This says 1 minute after sunset use motion sensor to turn on Hall light [VERY basic]
 
 ```
 
