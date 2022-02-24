@@ -96,9 +96,33 @@ I'd like to see other variations of this!  Maybe color, etc.
 Your could run a sonos zigbee plug to turn the power on and off through [Home Assistant](https://www.home-assistant.io/)
 Great program for running your entire house on automation.   [I chose not to do this..left them automatic on their own.  One main reason is if I move the lights can stay
 and for the new home owner they will work because it's not dependant on anything other then the light.]
-So if want the Plug/HA systemn it wouldn't be powered on while the sun was out, Simply create an automation that after the sun sets the power goes on until the sun comes up again!   You can find many great examples of how to do this on the [Home Assistant forum](https://community.home-assistant.io/). 
+So if want the Plug/HA system it wouldn't be powered on while the sun was out, Simply create an automation that after the sun sets the power goes on until the sun comes up again!   You can find many great examples of how to do this on the [Home Assistant forum](https://community.home-assistant.io/). 
 
 Great community and VERY helpful to new people!
+
+## Example Home Assistant Automation for this:
+This turns on a light 1 minute after Sunset
+
+```
+
+- alias: 11 - Turn on Hall light
+  id: Turn on Hall light
+
+  trigger:
+    - platform: sun
+      event: sunset
+  condition:
+    condition: and
+    conditions:
+      - condition: state
+        entity_id: binary_sensor.hallway_motion_sensor_motion
+        state: "on" 
+  action:
+    - service: switch.turn_on
+      entity_id: switch.hallway_light
+    - delay: "00:01:00" 
+     
+```
 
 ## What if I don't use or even want Home Assistant?
 
