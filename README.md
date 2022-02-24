@@ -27,7 +27,7 @@ Uses easy to get materials:
 - [Project Box](https://stlbase.com/browse/project+box+enclosure/) - Find one you like, 3d Print -- I included one.  It's just the right size if using an UNO.
 - [Project Box 2](https://www.amazon.com/Zulkit-Waterproof-Dustproof-Electrical-Electronic/dp/B09JYQ528P/ref=sr_1_9?crid=1UANSP5J77RFZ&keywords=project+box&qid=1644580114&sprefix=project+box%2Caps%2C98&sr=8-9) - OR buy a project box!
 - [Resister](https://www.amazon.com/Projects-100EP51210K0-10k-Resistors-Pack/dp/B0185FIOTA/ref=sr_1_12?crid=1F7YUAZ0YUIVO&keywords=110k+resistor&qid=1644580167&sprefix=110k+resister%2Caps%2C85&sr=8-12) - Resister recommend! 
-- [Power Supply](https://www.amazon.com/Aclorol-Switching-Universal-Transformer-Converter/dp/B07KC55TJF/ref=sr_1_6?crid=2LU5AXS4XQHQG&keywords=5v+20+amp+power+supply&qid=1645702026&s=electronics&sprefix=5v+20+amp+power+supply%2Celectronics%2C102&sr=1-6) - Buy a 5v supply OR you may have one laying around already!
+- [Power Supply](https://www.amazon.com/Aclorol-Switching-Universal-Transformer-Converter/dp/B07KC55TJF/ref=sr_1_6?crid=2LU5AXS4XQHQG&keywords=5v+20+amp+power+supply&qid=1645702026&s=electronics&sprefix=5v+20+amp+power+supply%2Celectronics%2C102&sr=1-6) - Buy a 5v supply OR you may have one laying around already!  But just remember to buy one that will be enough!  See below to figure that out!
 - [Bread Boards](https://www.amazon.com/Pcs-MCIGICM-Points-Solderless-Breadboard/dp/B07PCJP9DY/ref=sr_1_6?crid=1P2P2O8J2T55R&keywords=bread+board&qid=1644581526&s=industrial&sprefix=bread+board%2Cindustrial%2C94&sr=1-6) Bread Board for testing if you'd like
  
 ## Installation
@@ -43,6 +43,15 @@ Uses easy to get materials:
 You can use the diffusers or not either way it doesn't matter [I used them because I had them]
 You can install diffusers or stick led's directly to under cabinet.
  
+## Power Supply
+ 
+Which one do I need?  Well lets do some simple [we'll do mine since I don't know yours :)].
+Each led light uses about 50mA - 55mA [milliamps].  I have 142 [142 X 55] lights so I am using [I'm using the 55mA] 
+7810mA which converts to 7.8Amps or round up ... 8 amps.   NOW figuring my microcontroller uses 2.4 mA... 
+that's 0.0024Amps.   Do some adding...that means I need a power supply that supplies 8.0024Amps.   
+When doing this you also need to figure in 15 to 20% more amps just in case... which leads me to needing at 
+min a 10Amp power supply.  I would suggest you get a 15A or 20A.
+
 ## Issues
 At present none but then I built this to use in my home.  BUT... I did run into one problem.
 Too much light made the LEDS show at max brightness so playing with the map function is going
