@@ -75,7 +75,7 @@ power supply is because there is no adjust for voltage where the metal box varie
 adjustment on them! 
 
 ## Issues
-I did run into a couple small problems.
+
 Too much light made the LEDS show at max brightness so playing with the map function is going
 to be a case by case basis.  [I combated this by adding an if statement that should take care of
 that problem on 2/21/22]. Perhaps you may run into issues with either the code or placement.  
@@ -88,11 +88,7 @@ in the future.  Remember I'm not trying to create a retail product here.... just
 for my kitchen  and sharing what I've done :).
 
 BUT then if you really want something to work you'll find a way... I did.  ;) Special Thanks to kgray9 
-for the sketch AND all the help!!  
-
-One issue I have found is that early in the morning before the light really comes in the windows it may
-flash a bit here and there.   Needs adjustment to map function.  You will have to play with it until it
-works in the location you have it set.   
+for the sketch AND all the help!!   
 
 ## Development
 Want to contribute? Great!
