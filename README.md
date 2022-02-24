@@ -47,7 +47,9 @@ You can install diffusers or stick led's directly to under cabinet.
 ## 5v or 12v?
 
 I use 5v for most my projects for one simple reason.... they do not get hot.  12v can get hot,
-the wiring can get hot.  Just proceed and please be careful.
+the wiring can get hot.  Just proceed and please be careful.  Also remember that if using 12v 
+your wiring will be different and you'll need a 'buck' converter to get down to 5v.  You'll
+have to do the math and figure that all out yourself :).  
  
 ## Power Supply
  
