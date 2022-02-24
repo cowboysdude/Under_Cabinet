@@ -1,4 +1,4 @@
-
+ 
 # Under Cabinet Lighting
 ## _Fun and easy project_ 
 
@@ -35,7 +35,11 @@ Uses easy to get materials:
 >2. Grab the ino from here and look inside.  You'll need to change a few things!
     > How many led's your using
     > Look at the line "ldrValue = map(ldr, 0, 735, 70, 0);"  Run it as is then adjust as needed
-    > Map Function and how it's used    
+>3. Test.. Hook up wiring as shown in picture.
+>4. Once happy with results begin your perm. install
+
+## Map Function
+    
 value: the number to map.  [ldrValue]
 fromLow: the lower bound of the value’s current range. [0] - ldrValue
 fromHigh: the upper bound of the value’s current range. [1023] - ldrValue
@@ -44,9 +48,6 @@ toHigh: the upper bound of the value’s target range. [0] - LED Brihtness
             
 So this says basically when there is no light fromLow 0 - show led brightness at 70 toLow
                                         light ranging from 1 to 1023 ldrValue fromHigh show lights from 0 up to max brightness 70 toHigh
-
->3. Test.. Hook up wiring as shown in picture.
->4. Once happy with results begin your perm. install
 
 ## Under cabinet
 
