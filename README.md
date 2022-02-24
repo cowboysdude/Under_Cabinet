@@ -34,7 +34,17 @@ Uses easy to get materials:
 >1. Decide what you're using.  Uno or NANO either way the instructions are the same [except choosing board and port to program on]
 >2. Grab the ino from here and look inside.  You'll need to change a few things!
     > How many led's your using
-    > Look at the line "ldrValue = map(ldr, 0, 1023, 40, -5);"  Run it as is then adjust as needed
+    > Look at the line "ldrValue = map(ldr, 0, 735, 70, 0);"  Run it as is then adjust as needed
+    > Map Function and how it's used    
+            value: the number to map.  [ldrValue]
+            fromLow: the lower bound of the value’s current range. [0] - ldrValue
+            fromHigh: the upper bound of the value’s current range. [1023] - ldrValue
+            toLow: the lower bound of the value’s target range. [70] -LED Brightness
+            toHigh: the upper bound of the value’s target range. [0] - LED Brihtness
+            
+            So this says basically when there is no light fromLow 0 - show led brightness at 70 toLow
+                                                 light ranging from 1 to 1023 ldrValue fromHigh show lights from 0 -to max brightness 70 toHigh
+
 >3. Test.. Hook up wiring as shown in picture.
 >4. Once happy with results begin your perm. install
 
