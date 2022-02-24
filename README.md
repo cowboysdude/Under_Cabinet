@@ -41,7 +41,13 @@ Uses easy to get materials:
 ## Under cabinet
 
 You can use the diffusers or not either way it doesn't matter [I used them because I had them]
-You can install diffusers or stick led's directly to under cabinet.
+You can install diffusers or stick led's directly to under cabinet.  
+
+
+## 5v or 12v?
+
+I use 5v for most my projects for one simple reason.... they do not get hot.  12v can get hot,
+the wiring can get hot.  Just proceed and please be careful.
  
 ## Power Supply
  
