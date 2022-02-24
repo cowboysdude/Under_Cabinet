@@ -41,10 +41,10 @@ Uses easy to get materials:
 ## Map Function
     
 >value: the number to map.  [ldrValue]
->fromLow: the lower bound of the value’s current range. [0] - ldrValue
->fromHigh: the upper bound of the value’s current range. [1023] - ldrValue
->toLow: the lower bound of the value’s target range. [70] -LED Brightness
->toHigh: the upper bound of the value’s target range. [0] - LED Brihtness
+>fromLow: the lower bound of the value’s current range. [0] - ldrValue<br>
+>fromHigh: the upper bound of the value’s current range. [1023] - ldrValue<br>
+>toLow: the lower bound of the value’s target range. [70] -LED Brightness<br>
+>toHigh: the upper bound of the value’s target range. [0] - LED Brihtness<br>
             
 So this says basically when there is no light fromLow 0 - show led brightness at 70 toLow
                                         light ranging from 1 to 1023 ldrValue fromHigh show lights from 0 up to max brightness 70 toHigh
